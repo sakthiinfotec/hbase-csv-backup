@@ -1,0 +1,14 @@
+column_type_map:
+    device_id: Device Id
+    logged_at: Logged At
+    vehicle_id: Vehicle Id
+    latlng: Lat/Lng
+    speed: Speed
+    heading: Direction
+    
+connection-settings:
+    zk-host: 10.220.10.45
+    zk-port: 2181
+    backup-table-name: geodata
+    start-ts: 1458000000
+    end-ts: 1458728000
