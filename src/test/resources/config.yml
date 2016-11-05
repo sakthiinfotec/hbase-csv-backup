@@ -1,11 +1,19 @@
 column_type_map:
+    device_id: string
+    logged_at: long
+    vehicle_id: string
+    latlng: string
+    speed: float
+    heading: string
+
+column_desc_map:
     device_id: Device Id
     logged_at: Logged At
     vehicle_id: Vehicle Id
     latlng: Lat/Lng
     speed: Speed
     heading: Direction
-    
+
 connection-settings:
     zk-host: 10.220.10.45
     zk-port: 2181
